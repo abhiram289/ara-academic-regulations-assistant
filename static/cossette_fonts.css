@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Cossette Titre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cossettetitre/v3/11hYGpvKz1nGbxMXUWz9OdPzuiEZ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cossette Titre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cossettetitre/v3/11hbGpvKz1nGbxMXUWz9OdPzuhmlg9OM.ttf) format('truetype');
+}

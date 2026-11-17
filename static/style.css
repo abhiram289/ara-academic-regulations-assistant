@@ -1,0 +1,760 @@
+@font-face {
+  font-family: 'Cossette Titre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cossettetitre/v3/11hYGpvKz1nGbxMXUWz9OdPzuiEZ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cossette Titre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cossettetitre/v3/11hbGpvKz1nGbxMXUWz9OdPzuhmlg9OM.ttf) format('truetype');
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* Academic Regulations Assistant — Polished Inter & Cossette Titre Theme */
+
+:root {
+    --bg: #FFFFFF;
+    --alt: #F8F8F8;
+    --hover: #EFEFEF;
+    --line: #E5E5E5;
+    --line-subtle: #EEEEEE;
+    --ink: #0A0A0A;
+    --ink-2: #525252;
+    --ink-3: #8C8C8C;
+    --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-brand: 'Cossette Titre', 'Inter', -apple-system, sans-serif;
+}
+
+/* ---- Base & Typography (Strictly Inter for text, NEVER for icon fonts) ---- */
+html, body, .stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"], [data-testid="stSidebar"] {
+    background: var(--bg) !important;
+    color: var(--ink) !important;
+    font-family: var(--font) !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+p, label, li, h1, h2, h3, h4, h5, h6, input, textarea, button, table, th, td,
+.hero-title, .hero-subtitle, .side-label {
+    font-family: var(--font) !important;
+    color: var(--ink);
+}
+
+.stApp [data-testid="stCaptionContainer"], .stApp small {
+    color: var(--ink-2) !important;
+    font-family: var(--font) !important;
+}
+
+/* Streamlit Header / Clean top bar */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+}
+header[data-testid="stHeader"] * {
+    color: var(--ink) !important;
+}
+[data-testid="stDecoration"], footer, #MainMenu {
+    display: none !important;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--line);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--ink-3);
+}
+
+/* Centered chat container width */
+.block-container {
+    max-width: 760px !important;
+    padding: 2rem 1.5rem 8rem !important;
+}
+
+/* ---- PROTECT MATERIAL ICONS & SYMBOLS (Prevent text overlapping like _arrRaw statistics_right) ---- */
+[data-testid="stIconMaterial"],
+[data-testid="stIcon"],
+.material-symbols-rounded,
+.material-symbols-outlined,
+[class*="material-symbols"],
+[class*="MaterialSymbols"],
+[data-testid="stExpanderIcon"],
+[data-testid="stSidebarCollapseButton"] span,
+[data-testid="stSidebarCollapseButton"] div,
+summary span:has(svg),
+summary svg {
+    font-family: 'Material Symbols Rounded', 'Material Symbols Outlined', 'Material Icons' !important;
+    font-style: normal !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+    direction: ltr !important;
+    line-height: 1 !important;
+}
+
+/* ---- Sidebar ---- */
+[data-testid="stSidebar"] {
+    background: var(--alt) !important;
+    border-right: 1px solid var(--line) !important;
+}
+[data-testid="stSidebarContent"] {
+    padding-top: 1rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+}
+
+/* Polished Standout Brand Logo ("ara." in Cossette Titre display font) */
+.brand {
+    font-family: var(--font-brand) !important;
+    font-weight: 700 !important;
+    font-size: 2.35rem !important;
+    letter-spacing: -0.02em !important;
+    padding: 2px 0 10px 0 !important;
+    color: var(--ink) !important;
+    line-height: 1.0 !important;
+}
+
+/* Sleek Toggle Switch (Targets exact Streamlit emotion track & thumb elements) */
+[data-testid="stCheckbox"] {
+    margin-bottom: 12px;
+}
+[data-testid="stCheckbox"] label span {
+    font-size: 0.88rem !important;
+    font-weight: 500 !important;
+    color: var(--ink) !important;
+}
+
+/* Toggle Track */
+[data-testid="stCheckbox"] div[class*="e1hn2pbo7"],
+[data-testid="stCheckbox"] label > div > div:first-child,
+.st-key-dark_mode_switch div[class*="e1hn2pbo7"],
+.st-key-dark_mode_switch label > div > div:first-child {
+    background-color: #2E2E2E !important;
+    background: #2E2E2E !important;
+    border: 1px solid #3E3E3E !important;
+    box-sizing: border-box !important;
+    transition: background-color 150ms ease !important;
+}
+
+/* Toggle Thumb */
+[data-testid="stCheckbox"] div[class*="e1hn2pbo8"],
+[data-testid="stCheckbox"] label > div > div:first-child > div,
+.st-key-dark_mode_switch div[class*="e1hn2pbo8"],
+.st-key-dark_mode_switch label > div > div:first-child > div {
+    background-color: #EDEDED !important;
+    background: #EDEDED !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+    transition: transform 150ms ease !important;
+}
+
+/* New chat button */
+[data-testid="stSidebar"] .st-key-new_chat button {
+    background: var(--bg) !important;
+    border: 1px solid var(--line) !important;
+    font-weight: 600 !important;
+    font-size: 0.88rem !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 10px 14px !important;
+    border-radius: 8px !important;
+    margin-top: 4px !important;
+    margin-bottom: 14px !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03) !important;
+    transition: all 0.15s ease !important;
+    width: 100% !important;
+}
+[data-testid="stSidebar"] .st-key-new_chat button p {
+    text-align: center !important;
+    font-weight: 600 !important;
+    color: var(--ink) !important;
+}
+[data-testid="stSidebar"] .st-key-new_chat button:hover {
+    border-color: var(--ink) !important;
+    background: var(--hover) !important;
+    transform: translateY(-1px);
+}
+
+/* Side Section Labels */
+.side-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--ink-3) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 8px 4px 6px;
+    margin-top: 4px;
+}
+
+/* Suggested Questions: List items with subtle borders between them */
+div[class*="st-key-quick_"] {
+    margin-bottom: 0px !important;
+}
+div[class*="st-key-quick_"] button {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid var(--line) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: var(--ink) !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    font-size: 0.84rem !important;
+    font-weight: 400 !important;
+    line-height: 1.45 !important;
+    padding: 10px 8px !important;
+    height: auto !important;
+    width: 100% !important;
+    transition: all 0.15s ease !important;
+}
+div[class*="st-key-quick_"] button:hover {
+    background: var(--hover) !important;
+    padding-left: 12px !important;
+}
+div[class*="st-key-quick_"] button p {
+    text-align: left !important;
+    color: var(--ink) !important;
+}
+
+/* Settings Expander (Scrolled Below the fold) */
+[data-testid="stExpander"] {
+    border: 1px solid var(--line) !important;
+    border-radius: 8px !important;
+    background: var(--alt) !important;
+    overflow: hidden;
+}
+[data-testid="stExpander"] details summary {
+    background: var(--alt) !important;
+    color: var(--ink) !important;
+    padding: 10px 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    cursor: pointer;
+    font-weight: 500 !important;
+}
+[data-testid="stExpander"] details summary * {
+    color: var(--ink) !important;
+}
+[data-testid="stExpander"] [data-testid="stExpanderDetails"] {
+    background: var(--alt) !important;
+    color: var(--ink) !important;
+    padding: 12px 14px !important;
+    border-top: 1px solid var(--line) !important;
+}
+
+/* Bulletproof Selectbox Styling (NO Stark White Boxes Anywhere!) */
+[data-testid="stSelectbox"],
+[data-testid="stSelectbox"] > div,
+[data-testid="stSelectbox"] > div > div,
+[data-testid="stSelectbox"] [data-baseweb="select"],
+[data-testid="stSelectbox"] [data-baseweb="select"] > div,
+[data-baseweb="select"],
+[data-baseweb="select"] > div,
+[data-baseweb="select"] div,
+[data-baseweb="popover"],
+[data-baseweb="popover"] div,
+[data-baseweb="menu"],
+[data-baseweb="menu"] div,
+ul[role="listbox"],
+li[role="option"] {
+    background-color: var(--bg) !important;
+    background: var(--bg) !important;
+    color: var(--ink) !important;
+    border-color: var(--line) !important;
+}
+[data-baseweb="select"] span,
+[data-baseweb="select"] svg {
+    color: var(--ink) !important;
+    fill: var(--ink) !important;
+}
+li[role="option"]:hover {
+    background-color: var(--hover) !important;
+}
+
+/* ---- Empty state ---- */
+.empty-state {
+    text-align: center;
+    padding: 20vh 1rem 3rem;
+}
+.hero-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin: 0 0 12px;
+    color: var(--ink);
+    font-family: var(--font) !important;
+}
+.hero-subtitle {
+    font-size: 0.96rem;
+    color: var(--ink-2) !important;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: var(--font) !important;
+}
+
+/* ---- Chat messages ---- */
+[data-testid="stChatMessage"] {
+    background: transparent !important;
+    padding: 0.8rem 0 !important;
+    gap: 0 !important;
+}
+[data-testid="stChatMessageAvatarUser"],
+[data-testid="stChatMessageAvatarAssistant"] {
+    display: none !important;
+}
+[data-testid="stChatMessage"] p {
+    line-height: 1.7;
+    font-size: 0.96rem;
+}
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {
+    flex-direction: row-reverse;
+}
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) [data-testid="stChatMessageContent"] {
+    background: var(--alt);
+    border: 1px solid var(--line);
+    padding: 10px 16px;
+    border-radius: 16px 16px 4px 16px;
+    max-width: 80%;
+    width: fit-content;
+}
+
+/* ---- Chat input (Clean Single Pill, ZERO inner borders) ---- */
+[data-testid="stBottom"],
+[data-testid="stBottom"] > div {
+    background: var(--bg) !important;
+}
+
+[data-testid="stChatInput"] {
+    background: var(--bg) !important;
+    border: 1px solid var(--line) !important;
+    border-radius: 24px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+    padding: 3px 10px !important;
+    transition: all 0.2s ease;
+}
+
+[data-testid="stChatInput"]:focus-within {
+    border-color: var(--ink-2) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+[data-testid="stChatInput"] div,
+[data-testid="stChatInput"] > div,
+[data-testid="stChatInput"] [data-baseweb="base-input"],
+[data-testid="stChatInput"] [data-baseweb="base-input"] > div,
+[data-testid="stChatInput"] [data-baseweb="input"],
+[data-testid="stChatInput"] textarea {
+    border: none !important;
+    border-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+[data-testid="stChatInput"] textarea {
+    color: var(--ink) !important;
+    font-family: var(--font) !important;
+    font-size: 0.94rem !important;
+    resize: none !important;
+}
+
+[data-testid="stChatInput"] textarea::placeholder {
+    color: var(--ink-3) !important;
+}
+
+[data-testid="stChatInputSubmitButton"] {
+    background: var(--ink) !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 32px !important;
+    height: 32px !important;
+    transition: transform 0.1s ease;
+}
+[data-testid="stChatInputSubmitButton"]:hover {
+    transform: scale(1.06);
+}
+
+[data-testid="stChatInputSubmitButton"] svg {
+    color: var(--bg) !important;
+    fill: var(--bg) !important;
+}
+
+/* ---- Query plan / citations / refusal ---- */
+.query-plan-card {
+    border-left: 2px solid var(--line);
+    padding: 2px 0 2px 14px;
+    margin: 0 0 14px;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+}
+.query-plan-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--ink);
+}
+.subquery-item {
+    display: flex;
+    gap: 8px;
+    padding: 1px 0;
+}
+.subquery-number {
+    color: var(--ink-3);
+    font-weight: 600;
+}
+.subquery-number::after {
+    content: ".";
+}
+.citation-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding-top: 8px;
+    border-top: 1px solid var(--line-subtle);
+    font-size: 0.78rem;
+    color: var(--ink-3);
+}
+.citation-badge {
+    background: var(--alt);
+    color: var(--ink) !important;
+    border: 1px solid var(--line);
+    padding: 2px 9px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+.citation-badge:hover {
+    border-color: var(--ink-2);
+    transform: translateY(-1px);
+}
+.refusal-alert-card {
+    background: var(--alt);
+    border-left: 3px solid var(--ink);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+/* ---- Structured Markdown Tables ---- */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 14px 0 18px 0 !important;
+    font-size: 0.86rem !important;
+    border: 1px solid var(--line) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02) !important;
+}
+
+thead th {
+    background: var(--alt) !important;
+    color: var(--ink) !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+    padding: 9px 12px !important;
+    border-bottom: 1px solid var(--line) !important;
+    border-right: 1px solid var(--line) !important;
+}
+
+tbody td {
+    padding: 8px 12px !important;
+    border-bottom: 1px solid var(--line) !important;
+    border-right: 1px solid var(--line) !important;
+    color: var(--ink) !important;
+}
+
+tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+tbody tr:hover {
+    background: var(--hover) !important;
+}
+
+/* ---- Misc ---- */
+a {
+    color: var(--ink);
+    text-decoration-color: var(--ink-3);
+}
+code {
+    background: var(--alt) !important;
+    color: var(--ink) !important;
+    border-radius: 4px;
+    padding: 2px 5px !important;
+    font-size: 0.88em !important;
+}
+:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+}

@@ -1,0 +1,1528 @@
+{
+  "faiss": {
+    "backend": "faiss",
+    "total_questions": 50,
+    "in_scope_count": 35,
+    "out_of_scope_count": 15,
+    "retrieval_recall_at_1": 0.9714,
+    "retrieval_recall_at_3": 1.0,
+    "retrieval_recall_at_5": 1.0,
+    "mean_correctness": 0.984,
+    "mean_faithfulness": 0.967,
+    "out_of_scope_refusal_accuracy": 100.0,
+    "in_scope_refusal_rate": 0.0,
+    "evaluation_duration_seconds": 3.84,
+    "detailed_records": [
+      {
+        "id": 1,
+        "question": "What is the normal duration and total minimum credits required to earn a B.Tech degree?",
+        "type": "single_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Clause 1.2: Maximum Duration for Program Completion The maximum allowable duration for completing all degree requirements for the 4-year B.Tech program shall be normal duration plus two (2) years, which corresponds to six (6) academic years or twelve (12) consecutive semesters from the date of initial registration.\n\n\u2022 According to [Page 1]: Every candidate enrolled in the B.Tech program must successfully complete a minimum of one hundred and sixty (160) academic credits as prescribed by the respective Board of Studies.",
+        "cited_pages": [
+          1
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 2,
+        "question": "What is the maximum allowable time for completing the 4-year B.Tech program?",
+        "type": "single_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Clause 1.2: Maximum Duration for Program Completion The maximum allowable duration for completing all degree requirements for the 4-year B.Tech program shall be normal duration plus two (2) years, which corresponds to six (6) academic years or twelve (12) consecutive semesters from the date of initial registration.\n\n\u2022 According to [Page 1]: Every candidate enrolled in the B.Tech program must successfully complete a minimum of one hundred and sixty (160) academic credits as prescribed by the respective Board of Studies.",
+        "cited_pages": [
+          1
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 3,
+        "question": "How many credits must lateral entry students earn, and what is their maximum degree duration?",
+        "type": "multi_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Lateral entry candidates must earn a minimum of one hundred and twenty (120) academic credits.\n\n\u2022 According to [Page 1]: Clause 1.2: Maximum Duration for Program Completion The maximum allowable duration for completing all degree requirements for the 4-year B.Tech program shall be normal duration plus two (2) years, which corresponds to six (6) academic years or twelve (12) consecutive semesters from the date of initial registration.",
+        "cited_pages": [
+          1
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 4,
+        "question": "What is the official medium of instruction and examination at the university?",
+        "type": "single_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Clause 1.4: Medium of Instruction and Examination The official medium of instruction, course delivery, assessments, laboratory assignments, and End Semester Assessments (ESA) shall be strictly English across all academic departments.\n\n\u2022 According to [Page 4]: Clause 4.4: Laboratory and Practical Course Evaluation Laboratory courses are evaluated for 100 marks: 60 marks for continuous weekly observation, journal submission, and viva-voce; 40 marks for the comprehensive final lab practical examination.",
+        "cited_pages": [
+          1,
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 1/1, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 5,
+        "question": "How are credits calculated for lectures, tutorials, and practical laboratory sessions?",
+        "type": "single_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Non-credit mandatory audit courses are designated with zero credits on the grade sheet.\n\n\u2022 According to [Page 3]: Clause 3.4: Practical Laboratory Attendance Rules One hundred percent (100%) completion of prescribed laboratory experiments and practical write-ups is compulsory.",
+        "cited_pages": [
+          2,
+          3
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 6,
+        "question": "What is the minimum and maximum credit load allowed in a regular semester, and who can register for 28 credits?",
+        "type": "multi_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.2: Permissible Semester Credit Load Limits A student is required to register for a minimum of 16 credits and a normal maximum of 24 credits in any given regular semester.\n\n\u2022 According to [Page 2]: Under special academic circumstances, students with a cumulative grade point average (CGPA) of 8.50 or above may register for up to 28 credits in a semester, subject to the explicit written approval of the Department Faculty Advisor and the Dean of Academic Affairs.",
+        "cited_pages": [
+          2
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 7,
+        "question": "What is the deadline for adding or dropping a course in a semester?",
+        "type": "single_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.3: Course Add/Drop Period and Deadlines Students are permitted to modify their course registrations by adding or dropping courses strictly within the first ten (10) instructional days of the commencement of the semester.\n\n\u2022 According to [Page 9]: Clause 9.3: Summer Fast-Track Semester Structure A special summer fast-track semester of six (6) to eight (8) weeks duration is conducted during June and July.",
+        "cited_pages": [
+          2,
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 1/1, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 8,
+        "question": "Until when can a student withdraw from an elective course, and what grade is recorded on the transcript?",
+        "type": "multi_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.4: Course Withdrawal Policy A student may formally withdraw from a registered elective course up to the end of the eighth (8th) instructional week of the semester.\n\n\u2022 According to [Page 2]: A course withdrawn under this provision shall appear on the grade card with the grade letter 'W'.",
+        "cited_pages": [
+          2
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 9,
+        "question": "How many audit courses can a student register for per semester, and does it impact CGPA?",
+        "type": "multi_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.5: Audit Course Registration Guidelines Students may register for at most one (1) audit course per semester.\n\n\u2022 According to [Page 2]: Under special academic circumstances, students with a cumulative grade point average (CGPA) of 8.50 or above may register for up to 28 credits in a semester, subject to the explicit written approval of the Department Faculty Advisor and the Dean of Academic Affairs.",
+        "cited_pages": [
+          2
+        ],
+        "refused": false,
+        "correctness": 0.85,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/4, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 10,
+        "question": "What is the minimum mandatory attendance percentage required to be eligible for ESA?",
+        "type": "single_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).\n\n\u2022 According to [Page 4]: Students obtaining less than 20 marks in CIE are categorized as 'NE' (Not Eligible) and shall NOT be permitted to write the ESA.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 0.65,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 1/2, Page hit: False, Citations present: True"
+      },
+      {
+        "id": 11,
+        "question": "Under what conditions can attendance shortage be condoned, and what is the condonation fee?",
+        "type": "multi_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 3]: Clause 3.2: Condonation of Attendance Shortage on Valid Grounds Condonation of attendance shortage up to a maximum of ten percent (10%)\u2014allowing eligibility for students with attendance between 75.0% and 84.9%\u2014may be granted strictly by the Vice-Chancellor on the recommendation of the Attendance Review Committee.\n\n\u2022 According to [Page 3]: The student must submit official medical proof within three (3) working days of returning to campus and pay a non-refundable Condonation Fee of INR 2,000 per course.",
+        "cited_pages": [
+          3
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 4/4, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 12,
+        "question": "What happens if a student has less than 75% attendance in a course?",
+        "type": "single_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 3]: Clause 3.2: Condonation of Attendance Shortage on Valid Grounds Condonation of attendance shortage up to a maximum of ten percent (10%)\u2014allowing eligibility for students with attendance between 75.0% and 84.9%\u2014may be granted strictly by the Vice-Chancellor on the recommendation of the Attendance Review Committee.\n\n\u2022 According to [Page 3]: The student must submit official medical proof within three (3) working days of returning to campus and pay a non-refundable Condonation Fee of INR 2,000 per course.",
+        "cited_pages": [
+          3
+        ],
+        "refused": false,
+        "correctness": 0.85,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 2/4, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 13,
+        "question": "Can attendance shortage in laboratory or practical sessions be condoned?",
+        "type": "single_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 3]: Clause 3.4: Practical Laboratory Attendance Rules One hundred percent (100%) completion of prescribed laboratory experiments and practical write-ups is compulsory.\n\n\u2022 According to [Page 3]: Shortage below 85% in laboratory courses is strictly non-condonable.",
+        "cited_pages": [
+          3
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 14,
+        "question": "What is the weightage breakdown between Continuous Internal Evaluation (CIE) and End Semester Assessment (ESA)?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).\n\n\u2022 According to [Page 4]: Clause 4.2: Components and Breakdown of CIE (50 Marks) The 50 marks allocated to Continuous Internal Evaluation (CIE) are partitioned as follows: \u007f Internal Assessment Tests (IAT): Two centralized written tests of 25 marks each conducted across the semester.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 15,
+        "question": "What are the components and mark distributions of the 50 marks in CIE?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.2: Components and Breakdown of CIE (50 Marks) The 50 marks allocated to Continuous Internal Evaluation (CIE) are partitioned as follows: \u007f Internal Assessment Tests (IAT): Two centralized written tests of 25 marks each conducted across the semester.\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 16,
+        "question": "What is the minimum score required in CIE to be eligible to appear for ESA?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).\n\n\u2022 According to [Page 4]: Students obtaining less than 20 marks in CIE are categorized as 'NE' (Not Eligible) and shall NOT be permitted to write the ESA.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 17,
+        "question": "How are laboratory courses evaluated, and what is the minimum aggregate passing score?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.4: Laboratory and Practical Course Evaluation Laboratory courses are evaluated for 100 marks: 60 marks for continuous weekly observation, journal submission, and viva-voce; 40 marks for the comprehensive final lab practical examination.\n\n\u2022 According to [Page 4]: A minimum score of 50% in aggregate is required to clear laboratory subjects.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 18,
+        "question": "What are the minimum passing criteria for a theory course in ESA and aggregate score?",
+        "type": "multi_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.2: Minimum Passing Standards in a Course A candidate shall be declared to have passed a course if and only if they obtain: (i) at least 40% marks in the End Semester Assessment (minimum 20 out of 50 scaled marks, or 40 out of 100 raw marks), AND (ii) an aggregate of at least 40% marks combined across CIE and ESA (minimum 40 marks out of 100).\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).",
+        "cited_pages": [
+          4,
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 19,
+        "question": "What letter grade and grade point are awarded for marks between 80% and 89%?",
+        "type": "single_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.3: Grading Scale and Grade Points Table Percentage Marks Range Letter Grade Grade Description Grade Point 90% to 100% O Outstanding 10 80% to 89% S Excellent 9 70% to 79% A Very Good 8 60% to 69% B Good 7 50% to 59% C Fair 6 40% to 49% D Pass 5 Below 40% F Fail 0 Not Eligible / Detained NE / NSAR Detained 0 Incomplete / Absent I / AB Incomplete 0\n\n\u2022 According to [Page 4]: Clause 4.4: Laboratory and Practical Course Evaluation Laboratory courses are evaluated for 100 marks: 60 marks for continuous weekly observation, journal submission, and viva-voce; 40 marks for the comprehensive final lab practical examination.",
+        "cited_pages": [
+          4,
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 20,
+        "question": "What grade point is associated with grade 'D', and what percentage range does it represent?",
+        "type": "single_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.3: Grading Scale and Grade Points Table Percentage Marks Range Letter Grade Grade Description Grade Point 90% to 100% O Outstanding 10 80% to 89% S Excellent 9 70% to 79% A Very Good 8 60% to 69% B Good 7 50% to 59% C Fair 6 40% to 49% D Pass 5 Below 40% F Fail 0 Not Eligible / Detained NE / NSAR Detained 0 Incomplete / Absent I / AB Incomplete 0\n\n\u2022 According to [Page 5]: Clause 5.4: SGPA and CGPA Mathematical Formulations The Semester Grade Point Average (SGPA) is computed as: SGPA = Sum(C_i * G_i) / Sum(C_i), where C_i represents course credits and G_i represents grade points earned.\n\n\u2022 According to [Page 5]: The Cumulative Grade Point Average (CGPA) is computed across all registered courses from the first semester up to the current semester in identical fashion.",
+        "cited_pages": [
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 21,
+        "question": "How is the Semester Grade Point Average (SGPA) calculated mathematically?",
+        "type": "single_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.4: SGPA and CGPA Mathematical Formulations The Semester Grade Point Average (SGPA) is computed as: SGPA = Sum(C_i * G_i) / Sum(C_i), where C_i represents course credits and G_i represents grade points earned.\n\n\u2022 According to [Page 5]: The Cumulative Grade Point Average (CGPA) is computed across all registered courses from the first semester up to the current semester in identical fashion.",
+        "cited_pages": [
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 1/1, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 22,
+        "question": "What credit requirement must a student satisfy to be promoted to the 3rd semester (2nd year)?",
+        "type": "single_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.2: Promotion Criteria to 5th Semester (Third Year) - Zero Backlog Rule To be promoted to the fifth semester (commencement of 3rd year), a student must fulfill two concurrent criteria: (i) Must have successfully cleared ALL courses of the first year (1st and 2nd semesters) with zero pending backlogs, AND (ii) Must have earned at least 60% of the total credits prescribed for the second year (3rd and 4th semesters).\n\n\u2022 According to [Page 6]: Clause 6.3: Promotion Criteria to 7th Semester (Fourth Year) To register for the seventh semester (final year), a candidate must: (i) have passed ALL courses of the second year (3rd and 4th semesters) with zero pending backlogs, AND (ii) have earned at least 60% of the total credits prescribed for the third year (5th and 6th semesters).",
+        "cited_pages": [
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 23,
+        "question": "What are the two conditions for promotion to the 5th semester (3rd year)?",
+        "type": "multi_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.2: Promotion Criteria to 5th Semester (Third Year) - Zero Backlog Rule To be promoted to the fifth semester (commencement of 3rd year), a student must fulfill two concurrent criteria: (i) Must have successfully cleared ALL courses of the first year (1st and 2nd semesters) with zero pending backlogs, AND (ii) Must have earned at least 60% of the total credits prescribed for the second year (3rd and 4th semesters).\n\n\u2022 According to [Page 6]: Clause 6.3: Promotion Criteria to 7th Semester (Fourth Year) To register for the seventh semester (final year), a candidate must: (i) have passed ALL courses of the second year (3rd and 4th semesters) with zero pending backlogs, AND (ii) have earned at least 60% of the total credits prescribed for the third year (5th and 6th semesters).",
+        "cited_pages": [
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 24,
+        "question": "What happens if a student fails to satisfy credit progression requirements, and what is year detention?",
+        "type": "multi_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.4: Year Detention Policy Any student failing to satisfy the credit promotion or zero-backlog prerequisite rules specified in Clauses 6.1 through 6.3 shall be declared Year-Detained.\n\n\u2022 According to [Page 6]: Clause 6.3: Promotion Criteria to 7th Semester (Fourth Year) To register for the seventh semester (final year), a candidate must: (i) have passed ALL courses of the second year (3rd and 4th semesters) with zero pending backlogs, AND (ii) have earned at least 60% of the total credits prescribed for the third year (5th and 6th semesters).",
+        "cited_pages": [
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 25,
+        "question": "What is the minimum overall CGPA required at the end of the 8th semester to qualify for degree award?",
+        "type": "single_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.5: Minimum CGPA Requirement for Degree Award A student must secure a cumulative CGPA of not less than 5.00 at the conclusion of the eighth semester to be eligible for the award of B.Tech Degree.\n\n\u2022 According to [Page 2]: Clause 2.2: Permissible Semester Credit Load Limits A student is required to register for a minimum of 16 credits and a normal maximum of 24 credits in any given regular semester.",
+        "cited_pages": [
+          2,
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 26,
+        "question": "What penalty is imposed under Category I malpractice for possessing notes without copying?",
+        "type": "single_part",
+        "target_pages": [
+          7
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 7]: Clause 7.2: Category I Penalty - Unauthorized Possession Without Copying Possession of unauthorized study materials, manuscripts, formula sheets, or mobile devices in turned-off state without evidence of copying: Penalty entails immediate confiscation of material, cancellation of the examination in that specific course, and award of 'F' grade for that course.\n\n\u2022 According to [Page 7]: Clause 7.3: Category II Penalty - Active Copying or Digital Transmission Active copying from unauthorized material, receiving or transmitting answers via smartphone/smartwatch, or assisting other examinees: Penalty entails cancellation of all examinations registered in the current semester, award of 'F' grade in all current courses, and debarment for one (1) subsequent regular semester.",
+        "cited_pages": [
+          7
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 27,
+        "question": "What is the penalty under Category II malpractice for active copying or using mobile phones?",
+        "type": "multi_part",
+        "target_pages": [
+          7
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 7]: Clause 7.3: Category II Penalty - Active Copying or Digital Transmission Active copying from unauthorized material, receiving or transmitting answers via smartphone/smartwatch, or assisting other examinees: Penalty entails cancellation of all examinations registered in the current semester, award of 'F' grade in all current courses, and debarment for one (1) subsequent regular semester.\n\n\u2022 According to [Page 7]: Clause 7.2: Category I Penalty - Unauthorized Possession Without Copying Possession of unauthorized study materials, manuscripts, formula sheets, or mobile devices in turned-off state without evidence of copying: Penalty entails immediate confiscation of material, cancellation of the examination in that specific course, and award of 'F' grade for that course.",
+        "cited_pages": [
+          7
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 28,
+        "question": "What are the consequences of impersonation during university examinations under Category III?",
+        "type": "single_part",
+        "target_pages": [
+          7
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 7]: Clause 7.4: Category III Penalty - Impersonation and Severe Misconduct Impersonation of an examinee, assault or threat to invigilators, or intentional destruction of answer scripts: Immediate expulsion of the candidate from the university for two (2) academic years, cancellation of past semester results, and lodging of a formal police First Information Report (FIR).\n\n\u2022 According to [Page 7]: Clause 7.3: Category II Penalty - Active Copying or Digital Transmission Active copying from unauthorized material, receiving or transmitting answers via smartphone/smartwatch, or assisting other examinees: Penalty entails cancellation of all examinations registered in the current semester, award of 'F' grade in all current courses, and debarment for one (1) subsequent regular semester.",
+        "cited_pages": [
+          7
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 29,
+        "question": "What is the fee and deadline to apply for a photocopy of an evaluated answer script?",
+        "type": "multi_part",
+        "target_pages": [
+          8
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 8]: Clause 8.2: Re-evaluation Procedure and Deadlines Students may apply for re-evaluation of theory answer scripts within ten (10) working days of result declaration upon payment of a re-evaluation fee of INR 1,200 per course.\n\n\u2022 According to [Page 8]: Clause 8.3: Mark Revision and Fee Refund Rules If the marks obtained in re-evaluation exceed the original marks by five percent (5%) or more of the maximum examination marks, the re-evaluated marks shall replace the original marks.",
+        "cited_pages": [
+          8
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 30,
+        "question": "What is the re-evaluation fee per course and when are re-evaluation fees refunded?",
+        "type": "multi_part",
+        "target_pages": [
+          8
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 8]: Clause 8.2: Re-evaluation Procedure and Deadlines Students may apply for re-evaluation of theory answer scripts within ten (10) working days of result declaration upon payment of a re-evaluation fee of INR 1,200 per course.\n\n\u2022 According to [Page 8]: If marks increase by fifteen percent (15%) or more, the script is sent to a third independent evaluator whose score is final, and the entire re-evaluation fee of INR 1,200 shall be refunded to the student.",
+        "cited_pages": [
+          8
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 31,
+        "question": "Who is eligible to write make-up examinations, and who is barred?",
+        "type": "multi_part",
+        "target_pages": [
+          9
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 9]: Make-up exams are permissible strictly for students who were absent from the regular ESA due to documented medical emergency hospitalization or official national representation, and who possess at least 60% in CIE.\n\n\u2022 According to [Page 9]: Students with 'F', 'NE', or 'NSAR' grades are completely barred from make-up exams.",
+        "cited_pages": [
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 32,
+        "question": "What is the maximum letter grade awarded in make-up examinations?",
+        "type": "single_part",
+        "target_pages": [
+          9
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 9]: The maximum letter grade awarded in a make-up examination shall be capped at grade 'A' (Grade Point 8), irrespective of whether the numerical score falls in the 'S' or 'O' range.\n\n\u2022 According to [Page 9]: Clause 9.2: Timing and Grade Capping in Make-up Exams Make-up examinations are conducted within two (2) weeks following the announcement of regular ESA results.",
+        "cited_pages": [
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 33,
+        "question": "How many courses and credits can a student register for in the summer fast-track semester?",
+        "type": "multi_part",
+        "target_pages": [
+          9
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 9]: Clause 9.3: Summer Fast-Track Semester Structure A special summer fast-track semester of six (6) to eight (8) weeks duration is conducted during June and July.\n\n\u2022 According to [Page 9]: A student may register for a maximum of two (2) theory courses and one (1) laboratory course (totaling not more than ten [10] credits) for re-registration or backlog clearance.",
+        "cited_pages": [
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 34,
+        "question": "What are the eligibility criteria and additional credit requirements for B.Tech with Honours?",
+        "type": "multi_part",
+        "target_pages": [
+          10
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 10]: Clause 10.2: B.Tech with Minor Degree Requirements To obtain a Minor in an interdisciplinary engineering discipline, a student with a minimum CGPA of 7.00 may earn eighteen (18) additional credits offered by the secondary department.\n\n\u2022 According to [Page 1]: Every candidate enrolled in the B.Tech program must successfully complete a minimum of one hundred and sixty (160) academic credits as prescribed by the respective Board of Studies.",
+        "cited_pages": [
+          1,
+          10
+        ],
+        "refused": false,
+        "correctness": 0.85,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 2/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 35,
+        "question": "What is the duration, timing, and academic credit weightage of the mandatory industrial internship?",
+        "type": "multi_part",
+        "target_pages": [
+          10
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 10]: Clause 10.3: Mandatory Industrial Internship Guidelines Every student must undergo a mandatory full-time industrial internship of a minimum duration of six (6) weeks during the summer vacation between the sixth (6th) and seventh (7th) semesters.\n\n\u2022 According to [Page 10]: The internship carries three (3) academic credits, evaluated in the seventh semester through an industrial mentor evaluation, written technical report, and an oral viva-voce defense.",
+        "cited_pages": [
+          10
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 36,
+        "question": "What are the breakfast and dinner timings in the university hostel mess?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 37,
+        "question": "Which bus route should I take from Majestic to reach the university campus?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 38,
+        "question": "When are the university cricket team selection trials scheduled this semester?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 39,
+        "question": "What is the average placement salary package offered to Computer Science graduates?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 40,
+        "question": "Write a Python script using pandas to calculate moving averages of stock prices.",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 41,
+        "question": "How do I reset my student campus Wi-Fi network password?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 42,
+        "question": "What is the monthly fee for using the university gymnasium equipment and swimming pool?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 43,
+        "question": "Where can visitors park their two-wheeler vehicles on campus?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 44,
+        "question": "What is the weather forecast for Bangalore university campus tomorrow?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 45,
+        "question": "What are good affordable restaurants or cafes to eat near the university gate?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 46,
+        "question": "How can I apply for a four-wheeler driving license at the regional RTO office?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 47,
+        "question": "What is the estimated monthly rent for a double-sharing PG accommodation outside campus?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 48,
+        "question": "What is the management quota donation fee structure for engineering admission?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 49,
+        "question": "Can you recommend top science fiction movies to watch on Netflix this weekend?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 50,
+        "question": "What are the latest Bitcoin exchange rates and cryptocurrency investment tips?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      }
+    ]
+  },
+  "chroma": {
+    "backend": "chroma",
+    "total_questions": 50,
+    "in_scope_count": 35,
+    "out_of_scope_count": 15,
+    "retrieval_recall_at_1": 0.9714,
+    "retrieval_recall_at_3": 1.0,
+    "retrieval_recall_at_5": 1.0,
+    "mean_correctness": 0.984,
+    "mean_faithfulness": 0.967,
+    "out_of_scope_refusal_accuracy": 100.0,
+    "in_scope_refusal_rate": 0.0,
+    "evaluation_duration_seconds": 5.57,
+    "detailed_records": [
+      {
+        "id": 1,
+        "question": "What is the normal duration and total minimum credits required to earn a B.Tech degree?",
+        "type": "single_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Clause 1.2: Maximum Duration for Program Completion The maximum allowable duration for completing all degree requirements for the 4-year B.Tech program shall be normal duration plus two (2) years, which corresponds to six (6) academic years or twelve (12) consecutive semesters from the date of initial registration.\n\n\u2022 According to [Page 1]: Every candidate enrolled in the B.Tech program must successfully complete a minimum of one hundred and sixty (160) academic credits as prescribed by the respective Board of Studies.",
+        "cited_pages": [
+          1
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 2,
+        "question": "What is the maximum allowable time for completing the 4-year B.Tech program?",
+        "type": "single_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Clause 1.2: Maximum Duration for Program Completion The maximum allowable duration for completing all degree requirements for the 4-year B.Tech program shall be normal duration plus two (2) years, which corresponds to six (6) academic years or twelve (12) consecutive semesters from the date of initial registration.\n\n\u2022 According to [Page 1]: Every candidate enrolled in the B.Tech program must successfully complete a minimum of one hundred and sixty (160) academic credits as prescribed by the respective Board of Studies.",
+        "cited_pages": [
+          1
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 3,
+        "question": "How many credits must lateral entry students earn, and what is their maximum degree duration?",
+        "type": "multi_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Lateral entry candidates must earn a minimum of one hundred and twenty (120) academic credits.\n\n\u2022 According to [Page 1]: Clause 1.2: Maximum Duration for Program Completion The maximum allowable duration for completing all degree requirements for the 4-year B.Tech program shall be normal duration plus two (2) years, which corresponds to six (6) academic years or twelve (12) consecutive semesters from the date of initial registration.",
+        "cited_pages": [
+          1
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 4,
+        "question": "What is the official medium of instruction and examination at the university?",
+        "type": "single_part",
+        "target_pages": [
+          1
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 1]: Clause 1.4: Medium of Instruction and Examination The official medium of instruction, course delivery, assessments, laboratory assignments, and End Semester Assessments (ESA) shall be strictly English across all academic departments.\n\n\u2022 According to [Page 4]: Clause 4.4: Laboratory and Practical Course Evaluation Laboratory courses are evaluated for 100 marks: 60 marks for continuous weekly observation, journal submission, and viva-voce; 40 marks for the comprehensive final lab practical examination.",
+        "cited_pages": [
+          1,
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 1/1, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 5,
+        "question": "How are credits calculated for lectures, tutorials, and practical laboratory sessions?",
+        "type": "single_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Non-credit mandatory audit courses are designated with zero credits on the grade sheet.\n\n\u2022 According to [Page 3]: Clause 3.4: Practical Laboratory Attendance Rules One hundred percent (100%) completion of prescribed laboratory experiments and practical write-ups is compulsory.",
+        "cited_pages": [
+          2,
+          3
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 6,
+        "question": "What is the minimum and maximum credit load allowed in a regular semester, and who can register for 28 credits?",
+        "type": "multi_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.2: Permissible Semester Credit Load Limits A student is required to register for a minimum of 16 credits and a normal maximum of 24 credits in any given regular semester.\n\n\u2022 According to [Page 2]: Under special academic circumstances, students with a cumulative grade point average (CGPA) of 8.50 or above may register for up to 28 credits in a semester, subject to the explicit written approval of the Department Faculty Advisor and the Dean of Academic Affairs.",
+        "cited_pages": [
+          2
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 7,
+        "question": "What is the deadline for adding or dropping a course in a semester?",
+        "type": "single_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.3: Course Add/Drop Period and Deadlines Students are permitted to modify their course registrations by adding or dropping courses strictly within the first ten (10) instructional days of the commencement of the semester.\n\n\u2022 According to [Page 9]: Clause 9.3: Summer Fast-Track Semester Structure A special summer fast-track semester of six (6) to eight (8) weeks duration is conducted during June and July.",
+        "cited_pages": [
+          2,
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 1/1, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 8,
+        "question": "Until when can a student withdraw from an elective course, and what grade is recorded on the transcript?",
+        "type": "multi_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.4: Course Withdrawal Policy A student may formally withdraw from a registered elective course up to the end of the eighth (8th) instructional week of the semester.\n\n\u2022 According to [Page 2]: A course withdrawn under this provision shall appear on the grade card with the grade letter 'W'.",
+        "cited_pages": [
+          2
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 9,
+        "question": "How many audit courses can a student register for per semester, and does it impact CGPA?",
+        "type": "multi_part",
+        "target_pages": [
+          2
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 2]: Clause 2.5: Audit Course Registration Guidelines Students may register for at most one (1) audit course per semester.\n\n\u2022 According to [Page 2]: Under special academic circumstances, students with a cumulative grade point average (CGPA) of 8.50 or above may register for up to 28 credits in a semester, subject to the explicit written approval of the Department Faculty Advisor and the Dean of Academic Affairs.",
+        "cited_pages": [
+          2
+        ],
+        "refused": false,
+        "correctness": 0.85,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/4, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 10,
+        "question": "What is the minimum mandatory attendance percentage required to be eligible for ESA?",
+        "type": "single_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).\n\n\u2022 According to [Page 4]: Students obtaining less than 20 marks in CIE are categorized as 'NE' (Not Eligible) and shall NOT be permitted to write the ESA.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 0.65,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 1/2, Page hit: False, Citations present: True"
+      },
+      {
+        "id": 11,
+        "question": "Under what conditions can attendance shortage be condoned, and what is the condonation fee?",
+        "type": "multi_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 3]: Clause 3.2: Condonation of Attendance Shortage on Valid Grounds Condonation of attendance shortage up to a maximum of ten percent (10%)\u2014allowing eligibility for students with attendance between 75.0% and 84.9%\u2014may be granted strictly by the Vice-Chancellor on the recommendation of the Attendance Review Committee.\n\n\u2022 According to [Page 3]: The student must submit official medical proof within three (3) working days of returning to campus and pay a non-refundable Condonation Fee of INR 2,000 per course.",
+        "cited_pages": [
+          3
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 4/4, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 12,
+        "question": "What happens if a student has less than 75% attendance in a course?",
+        "type": "single_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 3]: Clause 3.2: Condonation of Attendance Shortage on Valid Grounds Condonation of attendance shortage up to a maximum of ten percent (10%)\u2014allowing eligibility for students with attendance between 75.0% and 84.9%\u2014may be granted strictly by the Vice-Chancellor on the recommendation of the Attendance Review Committee.\n\n\u2022 According to [Page 3]: The student must submit official medical proof within three (3) working days of returning to campus and pay a non-refundable Condonation Fee of INR 2,000 per course.",
+        "cited_pages": [
+          3
+        ],
+        "refused": false,
+        "correctness": 0.85,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 2/4, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 13,
+        "question": "Can attendance shortage in laboratory or practical sessions be condoned?",
+        "type": "single_part",
+        "target_pages": [
+          3
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 3]: Clause 3.4: Practical Laboratory Attendance Rules One hundred percent (100%) completion of prescribed laboratory experiments and practical write-ups is compulsory.\n\n\u2022 According to [Page 3]: Shortage below 85% in laboratory courses is strictly non-condonable.",
+        "cited_pages": [
+          3
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 14,
+        "question": "What is the weightage breakdown between Continuous Internal Evaluation (CIE) and End Semester Assessment (ESA)?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).\n\n\u2022 According to [Page 4]: Clause 4.2: Components and Breakdown of CIE (50 Marks) The 50 marks allocated to Continuous Internal Evaluation (CIE) are partitioned as follows: \u007f Internal Assessment Tests (IAT): Two centralized written tests of 25 marks each conducted across the semester.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 15,
+        "question": "What are the components and mark distributions of the 50 marks in CIE?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.2: Components and Breakdown of CIE (50 Marks) The 50 marks allocated to Continuous Internal Evaluation (CIE) are partitioned as follows: \u007f Internal Assessment Tests (IAT): Two centralized written tests of 25 marks each conducted across the semester.\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 16,
+        "question": "What is the minimum score required in CIE to be eligible to appear for ESA?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).\n\n\u2022 According to [Page 4]: Students obtaining less than 20 marks in CIE are categorized as 'NE' (Not Eligible) and shall NOT be permitted to write the ESA.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 17,
+        "question": "How are laboratory courses evaluated, and what is the minimum aggregate passing score?",
+        "type": "single_part",
+        "target_pages": [
+          4
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 4]: Clause 4.4: Laboratory and Practical Course Evaluation Laboratory courses are evaluated for 100 marks: 60 marks for continuous weekly observation, journal submission, and viva-voce; 40 marks for the comprehensive final lab practical examination.\n\n\u2022 According to [Page 4]: A minimum score of 50% in aggregate is required to clear laboratory subjects.",
+        "cited_pages": [
+          4
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 18,
+        "question": "What are the minimum passing criteria for a theory course in ESA and aggregate score?",
+        "type": "multi_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.2: Minimum Passing Standards in a Course A candidate shall be declared to have passed a course if and only if they obtain: (i) at least 40% marks in the End Semester Assessment (minimum 20 out of 50 scaled marks, or 40 out of 100 raw marks), AND (ii) an aggregate of at least 40% marks combined across CIE and ESA (minimum 40 marks out of 100).\n\n\u2022 According to [Page 4]: Clause 4.3: Minimum CIE Threshold for Eligibility to Write ESA To be eligible to appear in the End Semester Assessment (ESA) of any course, a student must secure a minimum of forty percent (40%) marks in the Continuous Internal Evaluation (CIE), which corresponds to at least twenty (20) marks out of fifty (50).",
+        "cited_pages": [
+          4,
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 19,
+        "question": "What letter grade and grade point are awarded for marks between 80% and 89%?",
+        "type": "single_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.3: Grading Scale and Grade Points Table Percentage Marks Range Letter Grade Grade Description Grade Point 90% to 100% O Outstanding 10 80% to 89% S Excellent 9 70% to 79% A Very Good 8 60% to 69% B Good 7 50% to 59% C Fair 6 40% to 49% D Pass 5 Below 40% F Fail 0 Not Eligible / Detained NE / NSAR Detained 0 Incomplete / Absent I / AB Incomplete 0\n\n\u2022 According to [Page 4]: Clause 4.4: Laboratory and Practical Course Evaluation Laboratory courses are evaluated for 100 marks: 60 marks for continuous weekly observation, journal submission, and viva-voce; 40 marks for the comprehensive final lab practical examination.",
+        "cited_pages": [
+          4,
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 20,
+        "question": "What grade point is associated with grade 'D', and what percentage range does it represent?",
+        "type": "single_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.3: Grading Scale and Grade Points Table Percentage Marks Range Letter Grade Grade Description Grade Point 90% to 100% O Outstanding 10 80% to 89% S Excellent 9 70% to 79% A Very Good 8 60% to 69% B Good 7 50% to 59% C Fair 6 40% to 49% D Pass 5 Below 40% F Fail 0 Not Eligible / Detained NE / NSAR Detained 0 Incomplete / Absent I / AB Incomplete 0\n\n\u2022 According to [Page 5]: Clause 5.4: SGPA and CGPA Mathematical Formulations The Semester Grade Point Average (SGPA) is computed as: SGPA = Sum(C_i * G_i) / Sum(C_i), where C_i represents course credits and G_i represents grade points earned.\n\n\u2022 According to [Page 5]: The Cumulative Grade Point Average (CGPA) is computed across all registered courses from the first semester up to the current semester in identical fashion.",
+        "cited_pages": [
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 21,
+        "question": "How is the Semester Grade Point Average (SGPA) calculated mathematically?",
+        "type": "single_part",
+        "target_pages": [
+          5
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 5]: Clause 5.4: SGPA and CGPA Mathematical Formulations The Semester Grade Point Average (SGPA) is computed as: SGPA = Sum(C_i * G_i) / Sum(C_i), where C_i represents course credits and G_i represents grade points earned.\n\n\u2022 According to [Page 5]: The Cumulative Grade Point Average (CGPA) is computed across all registered courses from the first semester up to the current semester in identical fashion.",
+        "cited_pages": [
+          5
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 1/1, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 22,
+        "question": "What credit requirement must a student satisfy to be promoted to the 3rd semester (2nd year)?",
+        "type": "single_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.2: Promotion Criteria to 5th Semester (Third Year) - Zero Backlog Rule To be promoted to the fifth semester (commencement of 3rd year), a student must fulfill two concurrent criteria: (i) Must have successfully cleared ALL courses of the first year (1st and 2nd semesters) with zero pending backlogs, AND (ii) Must have earned at least 60% of the total credits prescribed for the second year (3rd and 4th semesters).\n\n\u2022 According to [Page 6]: Clause 6.3: Promotion Criteria to 7th Semester (Fourth Year) To register for the seventh semester (final year), a candidate must: (i) have passed ALL courses of the second year (3rd and 4th semesters) with zero pending backlogs, AND (ii) have earned at least 60% of the total credits prescribed for the third year (5th and 6th semesters).",
+        "cited_pages": [
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 23,
+        "question": "What are the two conditions for promotion to the 5th semester (3rd year)?",
+        "type": "multi_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.2: Promotion Criteria to 5th Semester (Third Year) - Zero Backlog Rule To be promoted to the fifth semester (commencement of 3rd year), a student must fulfill two concurrent criteria: (i) Must have successfully cleared ALL courses of the first year (1st and 2nd semesters) with zero pending backlogs, AND (ii) Must have earned at least 60% of the total credits prescribed for the second year (3rd and 4th semesters).\n\n\u2022 According to [Page 6]: Clause 6.3: Promotion Criteria to 7th Semester (Fourth Year) To register for the seventh semester (final year), a candidate must: (i) have passed ALL courses of the second year (3rd and 4th semesters) with zero pending backlogs, AND (ii) have earned at least 60% of the total credits prescribed for the third year (5th and 6th semesters).",
+        "cited_pages": [
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 24,
+        "question": "What happens if a student fails to satisfy credit progression requirements, and what is year detention?",
+        "type": "multi_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.4: Year Detention Policy Any student failing to satisfy the credit promotion or zero-backlog prerequisite rules specified in Clauses 6.1 through 6.3 shall be declared Year-Detained.\n\n\u2022 According to [Page 6]: Clause 6.3: Promotion Criteria to 7th Semester (Fourth Year) To register for the seventh semester (final year), a candidate must: (i) have passed ALL courses of the second year (3rd and 4th semesters) with zero pending backlogs, AND (ii) have earned at least 60% of the total credits prescribed for the third year (5th and 6th semesters).",
+        "cited_pages": [
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 25,
+        "question": "What is the minimum overall CGPA required at the end of the 8th semester to qualify for degree award?",
+        "type": "single_part",
+        "target_pages": [
+          6
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 6]: Clause 6.5: Minimum CGPA Requirement for Degree Award A student must secure a cumulative CGPA of not less than 5.00 at the conclusion of the eighth semester to be eligible for the award of B.Tech Degree.\n\n\u2022 According to [Page 2]: Clause 2.2: Permissible Semester Credit Load Limits A student is required to register for a minimum of 16 credits and a normal maximum of 24 credits in any given regular semester.",
+        "cited_pages": [
+          2,
+          6
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 26,
+        "question": "What penalty is imposed under Category I malpractice for possessing notes without copying?",
+        "type": "single_part",
+        "target_pages": [
+          7
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 7]: Clause 7.2: Category I Penalty - Unauthorized Possession Without Copying Possession of unauthorized study materials, manuscripts, formula sheets, or mobile devices in turned-off state without evidence of copying: Penalty entails immediate confiscation of material, cancellation of the examination in that specific course, and award of 'F' grade for that course.\n\n\u2022 According to [Page 7]: Clause 7.3: Category II Penalty - Active Copying or Digital Transmission Active copying from unauthorized material, receiving or transmitting answers via smartphone/smartwatch, or assisting other examinees: Penalty entails cancellation of all examinations registered in the current semester, award of 'F' grade in all current courses, and debarment for one (1) subsequent regular semester.",
+        "cited_pages": [
+          7
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 27,
+        "question": "What is the penalty under Category II malpractice for active copying or using mobile phones?",
+        "type": "multi_part",
+        "target_pages": [
+          7
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 7]: Clause 7.3: Category II Penalty - Active Copying or Digital Transmission Active copying from unauthorized material, receiving or transmitting answers via smartphone/smartwatch, or assisting other examinees: Penalty entails cancellation of all examinations registered in the current semester, award of 'F' grade in all current courses, and debarment for one (1) subsequent regular semester.\n\n\u2022 According to [Page 7]: Clause 7.2: Category I Penalty - Unauthorized Possession Without Copying Possession of unauthorized study materials, manuscripts, formula sheets, or mobile devices in turned-off state without evidence of copying: Penalty entails immediate confiscation of material, cancellation of the examination in that specific course, and award of 'F' grade for that course.",
+        "cited_pages": [
+          7
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 28,
+        "question": "What are the consequences of impersonation during university examinations under Category III?",
+        "type": "single_part",
+        "target_pages": [
+          7
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 7]: Clause 7.4: Category III Penalty - Impersonation and Severe Misconduct Impersonation of an examinee, assault or threat to invigilators, or intentional destruction of answer scripts: Immediate expulsion of the candidate from the university for two (2) academic years, cancellation of past semester results, and lodging of a formal police First Information Report (FIR).\n\n\u2022 According to [Page 7]: Clause 7.3: Category II Penalty - Active Copying or Digital Transmission Active copying from unauthorized material, receiving or transmitting answers via smartphone/smartwatch, or assisting other examinees: Penalty entails cancellation of all examinations registered in the current semester, award of 'F' grade in all current courses, and debarment for one (1) subsequent regular semester.",
+        "cited_pages": [
+          7
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 29,
+        "question": "What is the fee and deadline to apply for a photocopy of an evaluated answer script?",
+        "type": "multi_part",
+        "target_pages": [
+          8
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 8]: Clause 8.2: Re-evaluation Procedure and Deadlines Students may apply for re-evaluation of theory answer scripts within ten (10) working days of result declaration upon payment of a re-evaluation fee of INR 1,200 per course.\n\n\u2022 According to [Page 8]: Clause 8.3: Mark Revision and Fee Refund Rules If the marks obtained in re-evaluation exceed the original marks by five percent (5%) or more of the maximum examination marks, the re-evaluated marks shall replace the original marks.",
+        "cited_pages": [
+          8
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 30,
+        "question": "What is the re-evaluation fee per course and when are re-evaluation fees refunded?",
+        "type": "multi_part",
+        "target_pages": [
+          8
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 8]: Clause 8.2: Re-evaluation Procedure and Deadlines Students may apply for re-evaluation of theory answer scripts within ten (10) working days of result declaration upon payment of a re-evaluation fee of INR 1,200 per course.\n\n\u2022 According to [Page 8]: If marks increase by fifteen percent (15%) or more, the script is sent to a third independent evaluator whose score is final, and the entire re-evaluation fee of INR 1,200 shall be refunded to the student.",
+        "cited_pages": [
+          8
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 31,
+        "question": "Who is eligible to write make-up examinations, and who is barred?",
+        "type": "multi_part",
+        "target_pages": [
+          9
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 9]: Make-up exams are permissible strictly for students who were absent from the regular ESA due to documented medical emergency hospitalization or official national representation, and who possess at least 60% in CIE.\n\n\u2022 According to [Page 9]: Students with 'F', 'NE', or 'NSAR' grades are completely barred from make-up exams.",
+        "cited_pages": [
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 32,
+        "question": "What is the maximum letter grade awarded in make-up examinations?",
+        "type": "single_part",
+        "target_pages": [
+          9
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 9]: The maximum letter grade awarded in a make-up examination shall be capped at grade 'A' (Grade Point 8), irrespective of whether the numerical score falls in the 'S' or 'O' range.\n\n\u2022 According to [Page 9]: Clause 9.2: Timing and Grade Capping in Make-up Exams Make-up examinations are conducted within two (2) weeks following the announcement of regular ESA results.",
+        "cited_pages": [
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 2/2, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 33,
+        "question": "How many courses and credits can a student register for in the summer fast-track semester?",
+        "type": "multi_part",
+        "target_pages": [
+          9
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 9]: Clause 9.3: Summer Fast-Track Semester Structure A special summer fast-track semester of six (6) to eight (8) weeks duration is conducted during June and July.\n\n\u2022 According to [Page 9]: A student may register for a maximum of two (2) theory courses and one (1) laboratory course (totaling not more than ten [10] credits) for re-registration or backlog clearance.",
+        "cited_pages": [
+          9
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 34,
+        "question": "What are the eligibility criteria and additional credit requirements for B.Tech with Honours?",
+        "type": "multi_part",
+        "target_pages": [
+          10
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 10]: Clause 10.2: B.Tech with Minor Degree Requirements To obtain a Minor in an interdisciplinary engineering discipline, a student with a minimum CGPA of 7.00 may earn eighteen (18) additional credits offered by the secondary department.\n\n\u2022 According to [Page 1]: Every candidate enrolled in the B.Tech program must successfully complete a minimum of one hundred and sixty (160) academic credits as prescribed by the respective Board of Studies.",
+        "cited_pages": [
+          1,
+          10
+        ],
+        "refused": false,
+        "correctness": 0.85,
+        "faithfulness": 0.85,
+        "judge_reasoning": "Facts matched: 2/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 35,
+        "question": "What is the duration, timing, and academic credit weightage of the mandatory industrial internship?",
+        "type": "multi_part",
+        "target_pages": [
+          10
+        ],
+        "generated_answer": "Based on the official university academic regulations:\n\n\u2022 According to [Page 10]: Clause 10.3: Mandatory Industrial Internship Guidelines Every student must undergo a mandatory full-time industrial internship of a minimum duration of six (6) weeks during the summer vacation between the sixth (6th) and seventh (7th) semesters.\n\n\u2022 According to [Page 10]: The internship carries three (3) academic credits, evaluated in the seventh semester through an industrial mentor evaluation, written technical report, and an oral viva-voce defense.",
+        "cited_pages": [
+          10
+        ],
+        "refused": false,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Facts matched: 3/3, Page hit: True, Citations present: True"
+      },
+      {
+        "id": 36,
+        "question": "What are the breakfast and dinner timings in the university hostel mess?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 37,
+        "question": "Which bus route should I take from Majestic to reach the university campus?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 38,
+        "question": "When are the university cricket team selection trials scheduled this semester?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 39,
+        "question": "What is the average placement salary package offered to Computer Science graduates?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 40,
+        "question": "Write a Python script using pandas to calculate moving averages of stock prices.",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 41,
+        "question": "How do I reset my student campus Wi-Fi network password?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 42,
+        "question": "What is the monthly fee for using the university gymnasium equipment and swimming pool?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 43,
+        "question": "Where can visitors park their two-wheeler vehicles on campus?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 44,
+        "question": "What is the weather forecast for Bangalore university campus tomorrow?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 45,
+        "question": "What are good affordable restaurants or cafes to eat near the university gate?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 46,
+        "question": "How can I apply for a four-wheeler driving license at the regional RTO office?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 47,
+        "question": "What is the estimated monthly rent for a double-sharing PG accommodation outside campus?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 48,
+        "question": "What is the management quota donation fee structure for engineering admission?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 49,
+        "question": "Can you recommend top science fiction movies to watch on Netflix this weekend?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      },
+      {
+        "id": 50,
+        "question": "What are the latest Bitcoin exchange rates and cryptocurrency investment tips?",
+        "type": "out_of_scope",
+        "target_pages": [],
+        "generated_answer": "I decline to answer: The provided university academic regulations do not contain information to support this question.",
+        "cited_pages": [],
+        "refused": true,
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "judge_reasoning": "Correctly refused out-of-scope question."
+      }
+    ]
+  }
+}

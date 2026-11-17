@@ -1,0 +1,32 @@
+{
+  "fixed_size": {
+    "strategy": "Fixed-Size (Character)",
+    "total_chunks": 45,
+    "mean_char_length": 456.44444444444446,
+    "std_char_length": 90.88003216831287,
+    "min_char_length": 194,
+    "max_char_length": 500,
+    "clause_start_alignment": 42.22,
+    "mid_sentence_cut_percentage": 100.0
+  },
+  "recursive": {
+    "strategy": "Recursive Character",
+    "total_chunks": 40,
+    "mean_char_length": 472.3,
+    "std_char_length": 93.8664476796688,
+    "min_char_length": 333,
+    "max_char_length": 697,
+    "clause_start_alignment": 97.5,
+    "mid_sentence_cut_percentage": 27.5
+  },
+  "semantic": {
+    "strategy": "Semantic Similarity",
+    "total_chunks": 31,
+    "mean_char_length": 609.7096774193549,
+    "std_char_length": 503.32072719338373,
+    "min_char_length": 148,
+    "max_char_length": 1745,
+    "clause_start_alignment": 77.42,
+    "mid_sentence_cut_percentage": 32.26
+  }
+}
